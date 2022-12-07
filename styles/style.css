@@ -22,12 +22,6 @@
   background-color: #f2f2f2;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
 .header__title{
   display: flex;
   align-items: center;
@@ -92,7 +86,6 @@
 }
 
 .two-columns{
-  border: 1px solid red;
   margin-top: 100px;
   width: 80%;
   display: flex;
@@ -110,7 +103,6 @@
 }
 
 .two-columns__main-text{
-  border: 1px solid red;
   width: 80%;
   min-width: 784px;
   list-style: none;
@@ -119,7 +111,6 @@
 }
 
 .two-columns__paragraph{
-  border: 1px solid red;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
