@@ -279,14 +279,15 @@
 
 .footer{
   min-height: 350px;
+  display: flex;
   background-color: #1f1f1f;
   color: white;
+  margin: 0;
 }
 
 .footer__columns{
-  padding: 60px 0 40px;
-  margin: 0 auto;
   width: 90%;
+  margin: 60px auto 40px;
   display: flex;
   flex-wrap: nowrap;
   min-height: 250px;
@@ -294,6 +295,7 @@
 
 .footer__column{
   display: flex;
+  flex-direction: row;
   width: 711px;
 }
 
@@ -333,13 +335,13 @@
   font-size: 18px;
   font-weight: 600;
   margin: 0 0 20px;
-  padding: 0;
 }
 
 .footer__column-links{
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 16px;
 }
 
 .footer__social-icon{
@@ -354,7 +356,6 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
-  margin-bottom: 16px;
 }
 
 
