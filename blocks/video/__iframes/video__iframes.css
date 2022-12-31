@@ -1,6 +1,6 @@
 .video__iframes{
-    display: flex;
-    flex-wrap: nowrap;
-    width: 1050px;
-    margin: 50px auto -50px;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 1050px;
+  margin: 50px auto -50px;
 }
